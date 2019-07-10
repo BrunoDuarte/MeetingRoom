@@ -13,6 +13,10 @@ gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
+# Flexible authentication solution for Rails with Warden
+gem 'devise'
+# Translation for Devise gem
+gem 'devise-i18n'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
